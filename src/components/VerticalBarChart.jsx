@@ -86,7 +86,7 @@ const VerticalBarChart = () => {
     <div style={{ width: '100%' }} className='flex '>
       <Chart options={options} series={series} type="bar" height={240}/>
       <div className='flex flex-col text-sm ml-10'>
-      <div className='mt-14'>
+      <div className='mt-14 hidden sm:block'>
         <p>Portfolio Value 
         </p>
            <p className='font-semibold text-xl'>$ 986.34</p> 
@@ -95,7 +95,7 @@ const VerticalBarChart = () => {
         </div>
       </div>
       <div>
-        <div className='flex flex-col  text-xs   mt-5'>
+        <div className='flex flex-col  text-xs mt-28  md:mt-5'>
             <div className=''><span className=' bg-red-400 px-1   '></span>  Portfolio</div>
             <div className='my-2'><span className='bg-blue-200 px-1   '></span> Dollar</div>
             <div className=''><span className=' px-1 bg-blue-600  '></span> EFTs</div>

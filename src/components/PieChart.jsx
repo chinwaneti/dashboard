@@ -33,14 +33,15 @@ const PieChart = () => {
   };
 
   return (
-    <div className='mt-10 relative'>
+    <div className='md:mt-10 md:w-[100%] md:ml-0 ml-5  w-[90%] relative'>
       <Chart
         options={chartData.options}
         series={chartData.series}
         type="donut"
-        width="200"
+        // width="200"
+        
       />
-      <p className='absolute top-10 text-white font-semibold left-14  text-center'>
+      <p className='absolute md:top-10 top-[85px] text-white font-semibold md:left-14 left-[110px] text-center '>
         07 <br /> INDUSTRIES
       </p>
     </div>
