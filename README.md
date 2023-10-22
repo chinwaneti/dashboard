@@ -32,6 +32,7 @@ This project was built using the following technologies:
 - React: The frontend framework used to create the application.
 - React Icons: A library for including icons in the application.
 - React ApexCharts: An essential library for rendering interactive charts.
+- Tailwind css
 
 ## Getting Started
 
